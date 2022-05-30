@@ -2,7 +2,7 @@
   "name": "narayani.h",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://narayani2327.github.io/narayani.h",
+  "homepage" : "https://narayani2327.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
