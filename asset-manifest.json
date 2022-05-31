@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/narayani.h/static/css/main.14302292.css",
+    "main.js": "/narayani.h/static/js/main.64abc217.js",
+    "static/media/my-photo.jpg": "/narayani.h/static/media/my-photo.faf40ecf14089d1f3794.jpg",
+    "index.html": "/narayani.h/index.html",
+    "main.14302292.css.map": "/narayani.h/static/css/main.14302292.css.map",
+    "main.64abc217.js.map": "/narayani.h/static/js/main.64abc217.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14302292.css",
+    "static/js/main.64abc217.js"
+  ]
+}
