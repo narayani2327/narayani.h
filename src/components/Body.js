@@ -1,8 +1,10 @@
 import React from "react";
 import { Component } from "react";
 import About from "./About";
+import Education from "./Education";
 import Project from "./Project";
 import Skills from "./Skills";
+import Contact from "./Contact";
 import Footer from "./Footer";
 import mypic from "../assets/my-photo.jpg";
 class Home extends Component{
@@ -26,7 +28,12 @@ class Home extends Component{
                     <Project/>
                 </div>
                 <div id="experience">
-                    <h3>Experience</h3>
+                    <h3>Experience and Education</h3>
+                    <Education/>
+                </div>
+                <div id="contact">
+                    <h3>Contact me - Get in touch</h3>
+                    <Contact/>
                 </div>
                 <Footer/>
             </div>

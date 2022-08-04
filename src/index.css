@@ -5,6 +5,7 @@
 }
 :root{
   --purple: #e199d7;
+  --grey: #929191;
 }
 body{
   /* background-image: linear-gradient(red,yellow,blue); */
@@ -49,6 +50,9 @@ h3::after{
   right: 0;
   width: 10%;
   background: white;
+}
+#experience>h3::after, #contact>h3::after{
+  width: 30%;
 }
 .project h4{
   margin: 30px;
@@ -100,8 +104,7 @@ h3::after{
   margin: 10px;
   font-size: 20px;
 }
-
-.about-main,#skill,#project{
+.about-main,#skill,#project,#experience,#contact{
   margin: 50px;
 }
 .about-main .child{
@@ -178,6 +181,52 @@ h3::after{
   border-radius: 10px;
   padding: 10px;
   width: 150px;
+}
+.sub-edu{
+  padding-left: 40px;
+  margin: 80px;
+  border-left: 3px solid var(--purple);
+  position: relative;
+  margin-left: 120px;
+}
+.draw{
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  background-color: var(--purple);
+  border: 3px solid white;
+  width: 25px;
+  height: 10px;
+  border-radius: 15px 100% 4px 100%;
+}
+.title{
+  font-size: 23px;
+  color: var(--purple);
+}
+.title span{
+  font-size: 20px;
+}
+.year{
+  font-size: 13px;
+  color: var(--grey);
+}
+.contact{
+  text-align: center;
+}
+.contact ul li{
+  list-style-type: none;
+  margin: 20px;
+}
+.contact ul li a{
+  color: var(--purple);
+  text-decoration: none;
+  font-size: 20px;
+}
+.contact ul li a:hover{
+  text-decoration: underline;
+}
+.contact ul li a span{
+  margin-left: 30px;
 }
 .footer {
   border-top: 1px solid white;

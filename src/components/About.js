@@ -1,5 +1,6 @@
 import React from "react";
 import { Component } from "react";
+import resume from "../assets/Narayani H.pdf";
 import Navbar from "./Navbar";
 class About extends Component{
     render(){
@@ -11,7 +12,7 @@ class About extends Component{
                     <div className="child">
                         <div className="about">
                             <p>I am a quick learner, a good communicator, and a team leader. I am interested in learning new skills and building projects on them. Fluent in Kannada, English, Hindi, and Tuli. My hobbies are drawing, painting and listening to music.</p>
-                            <a href="#">Download Resume</a>
+                            <a href={resume} target="_blank">Download Resume</a>
                         </div>
                         <div className="personal-info">
                             <p><span>Name: </span>Narayani H</p>
