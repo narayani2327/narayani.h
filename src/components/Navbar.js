@@ -1,33 +1,33 @@
 import React from 'react';
 import { Component } from 'react';
+import {Link} from "react-router-dom";
 class Navbar extends Component{
     render() {
         return (
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Narayani</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarScroll">
                     <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style={{bsScrollHeight: '100px'}}>
                         <li className="nav-item">
-                            <a className="nav-link" href="#home">Home</a>
+                            <Link className="nav-link" to="/narayani.h">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">About</a>
+                            <Link className="nav-link" to="/narayani.h/about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#skill">Skills</a>
+                            <Link className="nav-link" to="/narayani.h/skills">Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#project">Projects</a>
+                            <Link className="nav-link" to="/narayani.h/project">Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#experience">Experience</a>
+                            <Link className="nav-link" to="/narayani.h/education">Experience</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#footer">Contacts</a>
+                            <Link className="nav-link" to="/narayani.h/contacts">Contacts</Link>
                         </li>
                     </ul>
                 </div>
