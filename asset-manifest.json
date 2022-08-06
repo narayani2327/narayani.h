@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/narayani.h/static/css/main.be85146a.css",
-    "main.js": "/narayani.h/static/js/main.8800ffb9.js",
+    "main.css": "/narayani.h/static/css/main.23707028.css",
+    "main.js": "/narayani.h/static/js/main.3c10ecd6.js",
     "static/media/mysore.jpg": "/narayani.h/static/media/mysore.214e815b9797aeb11ecf.jpg",
     "static/media/nie.jpg": "/narayani.h/static/media/nie.9aec3e3231e4f2e11359.jpg",
     "static/media/tile.jpg": "/narayani.h/static/media/tile.32827c5d48916ff04492.jpg",
     "static/media/Narayani H.pdf": "/narayani.h/static/media/Narayani H.60461be8a842b9cb1553.pdf",
     "static/media/my-photo.jpg": "/narayani.h/static/media/my-photo.288e66eeb3c83d021896.jpg",
     "index.html": "/narayani.h/index.html",
-    "main.be85146a.css.map": "/narayani.h/static/css/main.be85146a.css.map",
-    "main.8800ffb9.js.map": "/narayani.h/static/js/main.8800ffb9.js.map"
+    "main.23707028.css.map": "/narayani.h/static/css/main.23707028.css.map",
+    "main.3c10ecd6.js.map": "/narayani.h/static/js/main.3c10ecd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.be85146a.css",
-    "static/js/main.8800ffb9.js"
+    "static/css/main.23707028.css",
+    "static/js/main.3c10ecd6.js"
   ]
 }
