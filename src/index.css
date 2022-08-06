@@ -8,10 +8,10 @@
   --grey: #929191;
 }
 body{
-  /* background-image: linear-gradient(red,yellow,blue); */
   color: white;
   background-color: black;
   background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
 }
 .collapse{
   padding-left: 45vw;
@@ -34,12 +34,21 @@ body{
   margin: 15px;
   background-color: white;
 }
+.nav-link{
+  transition-duration: 1s;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+.nav-link:hover{
+  background-color: var(--purple);
+}
 .progress{
   background-color: black;
 }
 h3{
   position: relative;
   margin-left: 70px;
+  font-family: 'Libre Baskerville', serif;
 }
 h3::after{
   position: absolute;
@@ -56,6 +65,7 @@ h3::after{
 }
 .project h4{
   margin: 30px;
+  font-family: 'Libre Baskerville', serif;
 }
 #home{
   display: flex;
@@ -83,12 +93,16 @@ h3::after{
 } */
 #home .text{
   width: 550px;
-  max-height: 250px;
+  min-height: 300px;
   padding: 30px;
   border-radius: 25px;
   border: black solid 2px;
   margin: 15px;
   animation: moving 2s 0.75 ease-out;
+}
+#home .text h1{
+  font-family: 'Square Peg', cursive;
+  font-size: 70px;
 }
 /* @keyframes moving{
   0%{
@@ -103,16 +117,17 @@ h3::after{
   padding: 15px;
   margin: 10px;
   font-size: 20px;
+  text-align: justify;
 }
 .about-main,#skill,#project,#experience,#contact{
   margin: 50px;
+  margin-top: 150px;
 }
 .about-main .child{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
-  /* height: 500px; */
 }
 .about,.personal-info{
   min-width: 300px;
@@ -133,12 +148,14 @@ h3::after{
 }
 .about a{
   text-decoration: none;
-  color: white;
+  color: black;
   background-color: var(--purple);
   padding: 15px;
-  /* margin: 50px; */
+  transition-duration: 1s;
   border-radius: 10px;
+  font-family: 'Libre Baskerville', serif;
 }
+
 .skill-data{
   display: flex;
   margin: 30px;  
@@ -181,6 +198,12 @@ h3::after{
   border-radius: 10px;
   padding: 10px;
   width: 150px;
+  transition-duration: 1s;
+  font-family: 'Libre Baskerville', serif;
+}
+.sub-project .pro-text a:hover, .about a:hover{
+  border: solid black 2px;
+  box-shadow: 2px 2px 20px 10px var(--purple);
 }
 .sub-edu{
   padding-left: 40px;
@@ -202,6 +225,8 @@ h3::after{
 .title{
   font-size: 23px;
   color: var(--purple);
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 1px;
 }
 .title span{
   font-size: 20px;
@@ -212,6 +237,7 @@ h3::after{
 }
 .contact{
   text-align: center;
+  margin-top: 100px;
 }
 .contact ul li{
   list-style-type: none;
@@ -264,4 +290,91 @@ h3::after{
 .footer p{
   margin: 0px;
   font-size: 1.2rem;
+}
+@media screen and (min-width:990px) and (max-width:1130px) {
+  .collapse {
+    padding-left: 35vw;
+  }
+}
+@media screen and (min-width:401px) and (max-width:750px) {
+  .sub-edu{
+    margin: 30px;
+  }
+  #experience h3{
+    margin: 0px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:400px) {
+  #contact h3{
+    margin: 0px;
+  }
+  #contact .contact ul{
+    padding: 0px;
+  }
+  #experience{
+    margin: 20px;
+    margin-top: 150px;
+  } 
+  .sub-edu{
+    margin: 30px;
+    padding-left: 20px;
+  }
+  #experience h3{
+    margin: 0px;
+  }
+}
+@media screen and (min-width:431px) and (max-width:520px) {
+  #skill{
+    margin: 20px;
+    margin-top: 150px;
+  }
+  #skill h3{
+    margin: 20px;
+  }
+  .each-skill{
+    width: 300px;
+    margin-left: 40px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:430px) {
+  .each-skill{
+    width: 200px;
+    margin: 10px;
+    margin-left: 90px;
+    margin-right: 0px;
+  }
+  .skill-data1,.skill-data2{
+    width: 200px;
+  }
+  #skill h3,.about-main h3{
+    margin: 20px;
+  }
+  .about{
+    padding: 0px;
+  }
+  #skill,.about-main{
+    margin: 20px;
+    margin-top: 150px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:600px) {
+  #home .text h1{
+    font-size: 50px;  
+  }
+  #home img{
+    height: 400px;
+    width: 250px;
+    margin-top: 50px
+  }
+  #project{
+    margin: 10px;
+    margin-top: 150px;
+  }
+  #project h3{
+    margin: 0px;
+  }
+  .sub-project img{
+    width: 280px;
+    height: 200px;
+  }
 }
