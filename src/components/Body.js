@@ -10,7 +10,7 @@ class Home extends Component{
                     <img src={mypic} alt="My photo"></img>
                     <div className="text">
                         <h1>Hi 👋, I am Narayani H</h1>
-                        <p>A student in sixth-semester computer science engineering at The National Institute of Engineering, Mysore, and a front-end web developer.</p>
+                        <p>A student in seventh-semester computer science engineering at The National Institute of Engineering, Mysore, and a front-end web developer.</p>
                     </div>
                 </div>
                 <Footer/>
